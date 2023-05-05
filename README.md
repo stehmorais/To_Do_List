@@ -32,7 +32,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
       <img src="https://avatars.githubusercontent.com/u/101229879?v=4" width="100px" alt="Valdelaine">
       <br>
       <sub>
-        <b>Valdelaine Cristina</b>
+        <b>Valdelaine Ribeiro</b>
       </sub>
     </a>
   </td>
@@ -40,4 +40,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <br>
 
-<p align="center"> Feito com 💜 por Ester Morais </p>
+<p align="center"> Feito com 💜 por Ester Morais e Valdenaine Ribeiro </p>
