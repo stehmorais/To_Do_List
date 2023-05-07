@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Página de exibição</title>
 </head>
 <body>
     <div class="container mt-5">
-        <h3>Suas atividades:</h3>
+        <header class="text-center" style="background-color:rgb(184, 24, 224); color:white; width: 100%; border-radius: 20px;">
+            <h4 class="px-5 py-2" style="letter-spacing: -0.75px; line-height: 120%;">SUAS ATIVIDADES</h4>
+        </header>
     
     {% if atividades %}
-        <ul>
+        <ul class="py-5 px-2" style="background-color:rgba(27, 27, 27, 0.075); border-radius: 20px; list-style: none; display:flex; gap:10px; height:600px;">
             {% for atividade in atividades %}
-                <li>{{ atividade.nome }}</li>
+                <li class="px-5 py-3 mb-3" style="font-weight: 500; width: 50%; border-radius:20px; height:50px; border-bottom: 2px solid rgb(184, 24, 224); background-color:white; box-shadow: 2px 5px 20px black;"><i class="bi bi-journal-text "></i> {{ atividade.nome }}</li>
             {% endfor %}
         </ul>
     {% else %}
